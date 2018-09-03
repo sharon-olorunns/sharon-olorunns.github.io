@@ -8,47 +8,93 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.12/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.12/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="master.css">
     <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <title>Sharon Olorunniwo</title>
 </head>
 
 <!--start tag for the body section, this is where to put all your content to be displayed-->
 
 <body>
-    <div class="main-container">
-        <!--contains all the introductory content on the page typically a title and tagline or navigational elements.-->
-        <header>
-            <nav>
-                <li>
-                    <a href="">Home</a>
-                </li>
-                <li>
-                    <a href="portfolio.html">Portfolio</a>
-                </li>
-                <li>
-                    <a href="blog.html">Blog</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </nav>
-        </header>
+    <header>
+        <nav class="uk-navbar uk-navbar-container uk-margin">
+            <div class="uk-navbar-left navheader">
+                <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#modal-full" uk-toggle></a>
+            </div>
+        </nav>
 
-        <h1 id="intro"> Welcome to my World</h1>
-        <p id="index">My name is Sharon and I am currently a junior computer science student. My interests are
-            <br /> Web Design, UI/UX, App Development and Computer Graphics.</p>
-        <img src="pexels-photo-97260.jpeg" alt="pic">
-        <button class="button aboutBut">MORE ABOUT ME</button>
 
-        <!--organize the final content on the page such as the credits or contact info.-->
-        <footer>
-            <p style="text-align: center">
-                created by Sharon 2018
-            </p>
-        </footer>
+        <div id="modal-full" class="uk-modal-full" uk-modal>
+            <div class="uk-modal-dialog">
+                <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                    <div class="uk-background-cover" style="background-image: url('pexels-photo-207153.jpeg');" uk-height-viewport></div>
+                    <div class="uk-padding-large">
+                        <h1>Sharon Olorunniwo</h1>
+                        <div class="uk-width-1-2@s uk-width-2-5@m">
+                            <ul class="uk-nav uk-nav-default">
+                                <li class="uk-nav-header">Explore</li>
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">About Me</a>
+                                </li>
+                                <li>
+                                    <a href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="blog.html">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact Me</a>
+                                </li>
+                                <li class="uk-nav-divider"></li>
+                            </ul>
+
+                            <li>
+                                <ul class="uk-iconnav">
+                                    <li>
+                                        <a href="https://dribbble.com/olorunns" target="_blank" uk-icon="icon: dribbble"></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/olorunns/" target="_blank" uk-icon="icon: instagram"></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/sharon-olorunniwo-589b79131/" target="_blank" uk-icon="icon: linkedin"></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/olorunns" target="_blank" uk-icon="icon: twitter"></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/sharon-olorunns" target="_blank" uk-icon="icon: github"></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.behance.net/olorunns53e5" target="_blank" uk-icon="icon: behance"></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <h1 id="intro">Hi I'm Sharon</h1>
+    <p id="introme">My name is Sharon and I am currently a junior computer science student. <br> My interests are Web Design, UI/UX, App Development and Computer Graphics.</p>
+
+    <div class="uk-overflow-hidden container4">
+        <img src="pexels-photo-796620.jpeg" alt="Example image" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
     </div>
 
+    <p id="me">
+        <a href="about.html" class="uk-button uk-button-secondary">ABOUT ME</a>
+    </p>
 </body>
 
 </html>

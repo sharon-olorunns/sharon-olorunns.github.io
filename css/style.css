@@ -1,0 +1,21 @@
+.container4 {
+    position: relative;
+    width: 35%;
+    margin: auto;
+    padding-top: -5px;
+    height: 35%;
+}
+
+#me {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#intro {
+    padding-top: -30px;
+    text-align: center;
+}
+
+#introme {
+    text-align: center;
+}
