@@ -2321,7 +2321,7 @@ ul.client-thumb-2 li a img:hover {
     height: 100%;
     padding: 45px;
     z-index: 4;
-    cursor: pointer;
+    cursor: pointer, auto;
 }
 
 .img .overlay-thumb {
