@@ -533,8 +533,8 @@ ul.sublist {
 }
 
 .logo {
-    float: left;
     line-height: 100px;
+    margin-top: 6%;
 }
 
 a>span.site-name {
@@ -1536,7 +1536,7 @@ ul.sub-menu li a {
     outline: 0;
     float: right;
     position: relative;
-    margin: 17px 0 17px 0;
+    margin-top: -120px;
 }
 
 .main-menu-indicator:hover {
@@ -1702,7 +1702,7 @@ ul.sub-menu li a {
 }
 
 .history-wrapper article {
-    margin-top: 60px
+    margin-top: 100px
 }
 
 .history-wrapper h4 {
@@ -2287,9 +2287,9 @@ ul.client-thumb-2 li a img:hover {
 /*Overlay Thumb Portftolio and Team*/
 
 .img {
-    position: relative;
-    overflow: hidden;
-    display: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mix .img {
