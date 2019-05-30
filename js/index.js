@@ -1,1 +1,0 @@
-// Try to change the $rings value and "-30.times do" "weird things happens"
